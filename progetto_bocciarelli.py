@@ -302,10 +302,10 @@ if(n00==1):
 						ax.text(x_text,max(binomial(x_fit,alpha[(i+j+l)*3],alpha[(i+j+l)*3 +1],alpha[(i+j+l)*3 +2])), r'$p='f'{p[j+i+l]}$', fontsize=14)
 
 					if(len(N)>1):
-						ax.text(x_text,max(binomial(x_fit,alpha[(i+j+l)*3],alpha[(i+j+l)*3 +1],alpha[(i+j+l)*3 +2])//2), r'$N_p='f'{N[j+i+l]}$', fontsize=14)
+						ax.text(x_text,max(binomial(x_fit,alpha[(i+j+l)*3],alpha[(i+j+l)*3 +1],alpha[(i+j+l)*3 +2])), r'$N_p='f'{N[j+i+l]}$', fontsize=14)
 			
 					if(len(passi)>1):
-						ax.text(x_text,max(binomial(x_fit,alpha[(i+j+l)*3],alpha[(i+j+l)*3 +1],alpha[(i+j+l)*3 +2])//2), r'$n='f'{passi[j+i+l]}$', fontsize=14)
+						ax.text(x_text,max(binomial(x_fit,alpha[(i+j+l)*3],alpha[(i+j+l)*3 +1],alpha[(i+j+l)*3 +2])), r'$n='f'{passi[j+i+l]}$', fontsize=14)
 
 					ax.set_xlabel('# passi a dx', fontsize=12)
 					ax.set_ylabel('Numero palline', fontsize=12)
@@ -480,12 +480,12 @@ if(n00==2):
 						ax[1].text(y_text,max(binomial(x_fit,alphay[(i+j+l)*3],alphay[(i+j+l)*3 +1],alphay[(i+j+l)*3 +2])), r'$p_y='f'{py[j+i+l]}$', fontsize=14)
 
 					if(len(N)>1):
-						ax[0].text(x_text,max(binomial(x_fit,alphax[(i+j+l)*3],alphax[(i+j+l)*3 +1],alphax[(i+j+l)*3 +2])//2), r'$N_p='f'{N[j+i+l]}$', fontsize=14)
-						ax[1].text(y_text,max(binomial(x_fit,alphay[(i+j+l)*3],alphay[(i+j+l)*3 +1],alphay[(i+j+l)*3 +2])//2), r'$N_p='f'{N[j+i+l]}$', fontsize=14)
+						ax[0].text(x_text,max(binomial(x_fit,alphax[(i+j+l)*3],alphax[(i+j+l)*3 +1],alphax[(i+j+l)*3 +2])), r'$N_p='f'{N[j+i+l]}$', fontsize=14)
+						ax[1].text(y_text,max(binomial(x_fit,alphay[(i+j+l)*3],alphay[(i+j+l)*3 +1],alphay[(i+j+l)*3 +2])), r'$N_p='f'{N[j+i+l]}$', fontsize=14)
 
 					if(len(passi)>1):
-						ax[0].text(x_text,max(binomial(x_fit,alphax[(i+j+l)*3],alphax[(i+j+l)*3 +1],alphax[(i+j+l)*3 +2])//2), r'$n='f'{passi[j+i+l]}$', fontsize=14)
-						ax[1].text(y_text,max(binomial(x_fit,alphay[(i+j+l)*3],alphay[(i+j+l)*3 +1],alphay[(i+j+l)*3 +2])//2), r'$n='f'{passi[j+i+l]}$', fontsize=14)
+						ax[0].text(x_text,max(binomial(x_fit,alphax[(i+j+l)*3],alphax[(i+j+l)*3 +1],alphax[(i+j+l)*3 +2])), r'$n='f'{passi[j+i+l]}$', fontsize=14)
+						ax[1].text(y_text,max(binomial(x_fit,alphay[(i+j+l)*3],alphay[(i+j+l)*3 +1],alphay[(i+j+l)*3 +2])), r'$n='f'{passi[j+i+l]}$', fontsize=14)
 
 						ax[0].set_xlabel('# passi a dx', fontsize=12)
 						ax[0].set_ylabel('Numero palline', fontsize=12)
